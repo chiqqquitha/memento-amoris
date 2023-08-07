@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0fbfc;
+    font-family: 'Roboto', sans-serif; /* Added Roboto as the general font */
+    color: #1b2a40;
+  }
+  
+  h1 {
+    font-family: 'Sacramento', cursive; /* Sacramento font for the title */
+    text-align: center;
+    font-size: 60pt;
+    padding: 0 3rem;
+    margin-top: 26px; /* Add this line */
+  }
+
+  h2 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 0px;
+    padding: 0 3rem;
+  }
+  
+  #map {
+    height: 75vh;
+    border-radius: 10px; /* Added rounded corners */
+    overflow: hidden; /* Ensures the map corners are also rounded */
+  }
+  
+  .gm-style-iw-d {
+    color: #000000;
+  }
+  
+  /* Container for the map to handle the shadow */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 1rem;
+  }
+  
+  /* Added shadow to the map */
+  #map {
+    width: 97%;
+    height: 97%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  h5 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 9pt;
+  }
+
+  .location-title {
+    font-size: 14pt; /* Set the font size to whatever value you like */
+  }
+  
+  .carousel-inner {
+    width: 200px;
+    max-width: 200px; /* To ensure the width doesn't exceed 200px */
+  }
+
+  .carousel-inner img {
+    max-width: 100%; /* Ensures the images don't overflow */
+    max-height: 100%;
+  }
+
+  .modal-body {
+    font-family: 'Poppins'; /* Set the font */
+    font-size: 16px; /* Set the font size */
+    color: #333; /* Set the text color */
+    line-height: 2; /* Set the line height */
+    text-align: justify; /* Align the text */
+  }
+  
+  .modal-body b {
+    color: #1b2a40; /* Set the color of bold text */
+  }
+  
+  .modal-body br {
+    line-height: 2; /* Set the line height for breaks */
+  }
+  
+  /* Style the overall modal box */
+.modal-content {
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid #e0e0e0; /* Border style */
+  /* Other styles as needed */
+}
+
+.modal-content .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+}
+
+
+/* Style the close button (X) */
+.close {
+  color: #aaaaaa; /* Color of X */
+  float: right; /* Positioning */
+  font-size: 28px; /* Font size */
+  font-weight: bold; /* Bold text */
+}
+
+.close:hover,
+.close:focus {
+  color: #000; /* Color on hover/focus */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Cursor style */
+}
+
+.welcome-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+.modal-header {
+  border: none;
+  background: none;
+}
